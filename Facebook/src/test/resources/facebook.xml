@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "facebook Automation" parallel="false">
+
+    <parameter name="platform" value="Win"/>
+    <parameter name="platformVersion" value="10"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="browserVersion" value="63.0"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <parameter name="pathForReports" value="reports/tests"/>
+    <parameter name="directoryPath" value="C:\Users\sujon\IdeaProjects\TuesdayGroupAutomation\Amazon\screenshot"/>
+
+    <test name="facebook Automation">
+        <classes>
+            <class name="TestHomePageFeatures.TestLoginFeatures"></class>
+        </classes>
+    </test>
+
+
+</suite>

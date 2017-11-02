@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="facebook Automation" duration-ms="18520" started-at="2017-11-02T19:01:29Z" finished-at="2017-11-02T19:01:47Z">
+    <groups>
+    </groups>
+    <test name="facebook Automation" duration-ms="18520" started-at="2017-11-02T19:01:29Z" finished-at="2017-11-02T19:01:47Z">
+      <class name="TestHomePageFeatures.TestLoginFeatures">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestHomePageFeatures.TestLoginFeatures@234bef66]" name="setUp" is-config="true" duration-ms="10567" started-at="2017-11-02T15:01:29Z" finished-at="2017-11-02T15:01:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Win]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[63.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[reports/tests]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[C:\Users\sujon\IdeaProjects\TuesdayGroupAutomation\Amazon\screenshot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageFacebook()[pri:0, instance:TestHomePageFeatures.TestLoginFeatures@234bef66]" name="homePageFacebook" duration-ms="6567" started-at="2017-11-02T15:01:39Z" finished-at="2017-11-02T15:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageFacebook -->
+        <test-method status="PASS" signature="close_Browser(org.testng.ITestResult, java.lang.String)[pri:0, instance:TestHomePageFeatures.TestLoginFeatures@234bef66]" name="close_Browser" is-config="true" duration-ms="1370" started-at="2017-11-02T15:01:46Z" finished-at="2017-11-02T15:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageFacebook status=SUCCESS method=TestLoginFeatures.homePageFacebook()[pri:0, instance:TestHomePageFeatures.TestLoginFeatures@234bef66] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Users\sujon\IdeaProjects\TuesdayGroupAutomation\Amazon\screenshot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- TestHomePageFeatures.TestLoginFeatures -->
+    </test> <!-- facebook Automation -->
+  </suite> <!-- facebook Automation -->
+</testng-results>
